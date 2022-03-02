@@ -12,7 +12,7 @@ substitutions:
   friendly_name: House
   device_description: "Measure your energy consumption with the pulse LED on your smart meter"
   pulse_pin: GPIO27
-  status_led: GPIO05
+  status_led: GPIO13 # Built in LED
 
   # imp/kWh rate ⬇ #
   pulse_rate: '1000'
